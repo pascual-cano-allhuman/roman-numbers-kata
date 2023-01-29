@@ -1,3 +1,3 @@
 export const numberToRoman = (n: number): string => {
-  return "I";
+  return n > 1 ? "II" : "I";
 };
